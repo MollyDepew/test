@@ -16,6 +16,7 @@ public static String encode (String message,int shift)
 		{
 			encoded += " ";
 			continue;
+            System.out.println("NEW CHANGE");
 
 		}
 		else if (current>=65 && current<= 90)
